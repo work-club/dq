@@ -15,6 +15,8 @@ bower --version > /dev/null 2>&1
 _dq_report 'bower' $?
 coffee --version > /dev/null 2>&1
 _dq_report 'coffee' $?
+compass --version > /dev/null 2>&1
+_dq_report 'compasss' $?
 curl --version > /dev/null 2>&1
 _dq_report 'curl' $?
 
