@@ -2,7 +2,7 @@
 
 Check how developer friendly is your machine!
 
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/core/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/core/dq.sh | sh`
 
 This should produce output like :
 
@@ -22,37 +22,40 @@ There is more to it. Depending on what you develop, we have got some preselected
 
 #### Minimal
 To see if you have some common commands installed that a developer machine usually needs
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/core/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/core/dq.sh | sh`
 
 #### shell tools
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/shell/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/shell/dq.sh | sh`
 
 #### ruby dev
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/ruby_dev/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/ruby_dev/dq.sh | sh`
+
+#### python dev
+`curl -sL https://raw.github.com/work-club/dq/master/bin/python_dev/dq.sh | sh`
 
 #### frontend dev
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/frontend_dev/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/frontend_dev/dq.sh | sh`
 
 #### java dev
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/java_dev/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/java_dev/dq.sh | sh`
 
 #### clojure dev
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/clojure_dev/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/clojure_dev/dq.sh | sh`
 
 #### groovy dev
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/groovy_dev/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/groovy_dev/dq.sh | sh`
 
 #### scala dev
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/scala_dev/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/scala_dev/dq.sh | sh`
 
 #### db
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/db/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/db/dq.sh | sh`
 
 #### all
 
 **Feeling courageous**, see what all you have got :
 
-`curl -sL https://raw.github.com/kdabir/dq/master/bin/all/dq.sh | sh`
+`curl -sL https://raw.github.com/work-club/dq/master/bin/all/dq.sh | sh`
 
 This checks for about 40 commands on your box
 
@@ -89,7 +92,7 @@ Issues and feedback welcomed.
 
 Don't want to run `curl` piping to `sh`. Understandably, you might be concerned. Worry not.
 - The source is hosted and is served directly from github, no app server in the middle.
-- If you still want to check, do a  `curl -sL https://raw.github.com/kdabir/dq/master/bin/core/dq.sh | cat`  first.
+- If you still want to check, do a  `curl -sL https://raw.github.com/work-club/dq/master/bin/core/dq.sh | cat`  first.
     (basically, replacing `sh` with `cat`, to see the content of the file )
 
 ### ♥
