@@ -11,8 +11,8 @@ groups = {
     :groovy_dev => ["core/java","java/gradle", "groovy/*"],
     :scala_dev => ["core/java", "scala/*"],
     :ruby_dev => ["core/ruby", "ruby/*"],
+    :python_dev => ["core/python", "python/*"],
     :frontend_dev => ["core/*", "frontend/*"],
-    :python_dev => ["core/*", "python/*"],
     :db => ["db/*"]
 }
 
