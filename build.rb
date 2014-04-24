@@ -12,6 +12,7 @@ groups = {
     :scala_dev => ["core/java", "scala/*"],
     :ruby_dev => ["core/ruby", "ruby/*"],
     :frontend_dev => ["core/*", "frontend/*"],
+    :python_dev => ["core/*", "python/*"],
     :db => ["db/*"]
 }
 

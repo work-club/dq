@@ -34,6 +34,8 @@ _dq_report 'curl' $?
 
 emacs --version > /dev/null 2>&1
 _dq_report 'emacs' $?
+fab --version > /dev/null 2>&1
+_dq_report 'fabric' $?
 gem -v > /dev/null 2>&1
 _dq_report 'gem' $?
 
@@ -79,6 +81,8 @@ _dq_report 'npm' $?
 perl -v > /dev/null  2>&1
 _dq_report 'perl' $?
 
+pip --version > /dev/null 2>&1
+_dq_report 'pip' $?
 psql --version > /dev/null 2>&1
 _dq_report 'postgres client' $?
 
@@ -118,6 +122,8 @@ _dq_report 'tree' $?
 
 vi --version > /dev/null 2>&1
 _dq_report 'vi' $?
+virtualenv --version > /dev/null 2>&1
+_dq_report 'virtualenv' $?
 wget --version > /dev/null 2>&1
 _dq_report 'wget' $?
 
